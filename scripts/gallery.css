@@ -1,0 +1,19 @@
+#gallery{
+    width: 50px;
+}
+
+.img{
+    padding: 25rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: azure;
+    border: 1px solid black;
+    border-radius: 0.25rem;
+    max-width: 100%;
+    height: auto;
+}
+
+#image_thumbnail{
+    max-width: 100px;
+    max-height: 80px;
+}

@@ -1,0 +1,561 @@
+
+@font-face {
+    font-family: modelFont;
+    src: url(../assets/fonts/DatBox.ttf);
+}
+
+
+@font-face {
+    font-family: LEMONMILK-RegularItalic;
+    src: url(../assets/fonts/LEMONMILK-RegularItalic.otf);
+}
+
+@font-face {
+    font-family: logo;
+    src: url(../assets/fonts/SocialMediaCircled.otf);
+}
+
+
+
+
+
+body {
+    background-color: #D1E8E2;
+}
+
+.main_contents {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+p {
+    font-family: 'LEMONMILK-RegularItalic;', sans-serif;
+    size: 30px;
+}
+
+.welcome{
+    font-family: 'LEMONMILK-RegularItalic;';
+}
+
+h1,h2,h3{
+    font-family: 'modelFont';
+
+    margin-bottom: 20px;
+}
+
+h4, h5, h6 {
+    font-family: 'LEMONMILK-RegularItalic', sans-serif;
+   
+}
+
+
+.modelText > h2 {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.modelText > h3 {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.modelText > p {
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+
+.card {
+    border: 1px solid rgba(0,0,0,0.2);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #f7f9fb;
+ }
+
+ .card-title{
+     margin-top: 10px;
+     text-align: center;
+     
+ }
+
+ .card-text {
+    font-size: 13px;
+    margin-top: 10px;
+    font-family: LEMONMILK-RegularItalic, sans-serif;
+ }
+
+ 
+.logo {
+    margin-top: 3px;
+    font-family: yorkwhiteletter;
+    }
+    
+    .logo h1 {
+    font-family: modelFont; 
+    color: rgb(201, 201, 201);  
+    font-size: 15px;
+    margin: 0;
+    margin-top: -10px;
+    margin-bottom: -15px;
+    float: left;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 2px;
+    }
+    
+    
+    .logo p {
+    font-size: 7px; 
+    margin-top: 22px; 
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 3px;
+    }
+
+    .btn-secondary{
+        background-color: white;
+        color: black;
+        font-family: LEMONMILK-RegularItalic;
+        font-size: x-large;
+    }
+    .button{
+        background-color: white;
+    }
+     
+    .btn-group-justified{
+        font-family: LEMONMILK-RegularItalic;
+    }
+    
+   
+    .navbar_model {
+        background-color: #116466; 
+        border-width: 0px;
+        min-height: 70px;
+    }
+
+    
+    .navbar_model .navbar-brand {
+        color: rgb(245, 235, 235);
+    }
+        
+    
+    .navbar_model .navbar-brand:hover {
+        color: rgb(17, 68, 57);  
+    }
+
+    
+    .navbar_model .navbar-nav > li > a {
+        color: white;  
+        font-family: LEMONMILK-RegularItalic;
+    }
+
+    
+    .navbar_model .navbar-nav > li > a:hover, 
+    .navbar_model .navbar-nav > li > a:focus {
+        color: rgb(17, 68, 57);   
+    }
+
+    .navbar_model .navbar-nav .nav-item {
+        margin-top: 0px;
+    }
+
+    
+    .navbar_model .navbar-nav .nav-item > .active, 
+    .navbar_model .navbar-nav > .active > a:hover, 
+    .navbar_model .navbar-nav > .active > a:focus {
+        color:  #760003;
+        background-color: #3399ff;
+    }
+
+    
+    .navbar_model .navbar-nav > li > a:hover, 
+    .navbar_model  .navbar-nav > li > a:focus {
+        color: rgb(17, 68, 57);  
+    }
+
+   
+    .navbar_model .navbar-toggler {
+        border-color: white;
+    }
+
+    .navbar_model  .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1.0)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+
+    .navbar_model .navbar-toggler {
+        outline: none !important;
+    }
+
+   
+    .footer {
+        color: #030303;
+        background-color: grey; 
+        height: 50px;
+    }
+
+    .navbar-text > a {
+        font-size: 10px;
+    }
+
+    .navbar-text > p {
+        color: rgb(255, 255, 255);
+        font-size: 14px;
+        text-decoration: none;
+    }
+    a:link{
+        color: black;
+    }
+
+    .email {
+        padding-top: 8px;
+        width: 100%;
+    }
+
+    .git {
+        padding-top: 0px;
+        width: 30%;   
+    }
+
+   
+    
+    
+    .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+        color:  #760003; 
+        background-color: #3399ff; 
+        border-color: #dee2e6 #dee2e6 #fff;
+    }
+
+    .nav-tabs .nav-link {
+        color: white;  
+        border: 1px solid transparent;
+        border-top-left-radius: 0.25rem;
+        border-top-right-radius: 0.25rem;
+    }
+
+   
+    .btn-responsive {
+        margin-right: 2px;
+        margin-bottom: 4px;
+        padding: 5px 5px;
+        font-size: 80%;
+        line-height: 1.2;
+        white-space: normal !important;
+    }
+
+    .img-thumbnail {
+        padding: 0.25rem;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        background-color: #fff;
+        border: 1px solid #dee2e6;
+        border-radius: 0.25rem;
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .gallery .img-thumbnail{
+        background-color: white;
+        padding: 0.25rem;
+        margin: 5px;
+        border: 1px solid #dee2e6;
+        border-radius: 0.25rem;
+        max-width: fit-content;
+        height: auto;
+    }
+    
+    .gallery-header {
+        color: white;
+    }
+    
+   
+    
+    .model3D  {
+        background-color: rgba(255, 255, 255, 0.0); 
+        border-radius: 5px;
+        border: 0px solid rgba(0, 0, 0, 1.0);
+        padding: 2px;
+        height: 200px;
+    }
+
+    X3D, x3d {
+        background-color: rgba(255, 255, 255, 0.0); 
+        border-radius: 5px;
+        border: 0px solid rgba(255, 0, 0, 1.0);
+        width: 100%;
+        height: 100%
+        
+    }
+
+
+@media (min-width: 576px) {
+
+    body {
+        background-color: #f7f9fb;
+    }
+
+   
+
+    .modelText > h2 {
+        color: rgb(0, 0, 0);
+        font-size: 25px;
+        margin-top: 0px;
+        margin-bottom: 5px;
+    }
+    
+    .modelText > h3 {
+        color: rgb(0, 0, 0);
+        font-size: 18px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+    .modelText > p {
+        font-size: 14px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        line-height: 1.4;
+    }
+
+    .card {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: #e4e4e4;
+    }
+
+    .navbar_model {
+        background-color: #116466; 
+        min-height: 90px;
+    }
+
+    .footer {
+        background-color: grey; 
+        height: 60px;
+    }
+
+    .navbar-text > a {
+        font-size: 12px;
+
+    }
+
+    .navbar-text > p {
+        color:white;
+    }
+    a:link{
+        color: black;
+    }
+
+    .email {
+        padding-top: 16px;
+    }
+
+    .git {
+        padding-top: 5px;
+    }
+
+    .model3D  {
+        height: 200px;
+    }
+
+}
+
+@media (min-width: 768px) { 
+    
+    body {
+        background-color: #e4e4e4;
+    }
+
+    
+    .modelText > h2 {
+        color: rgb(0, 0, 0);
+        font-size: 27px;
+        margin-top: 0px;
+        margin-bottom: 5px;
+    }
+    
+    .modelText > h3 {
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+    .modelText > p {
+        font-size: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        line-height: 1.4;
+    }
+
+    .card {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: #f7f9fb;
+    }
+
+    
+    
+    .logo {
+        margin-top: 3px;
+    }
+
+    .logo h1 {
+        font-family: modelFont;
+        font-size: 41px;
+        margin: 0;
+        margin-top: 0px;
+        margin-bottom: -15px;
+        float: left;
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 2px;
+    }
+
+    
+
+    .logo p {
+        font-size: 10px;
+        margin-top: 45px;
+        margin-bottom: 0px;
+        padding-top: 0px;
+        padding-left: 8px;
+    }
+
+    .navbar_model {
+        background-color: #116466; 
+        min-height: 90px;
+    }
+
+    .footer {
+        background-color: #116466;
+        height: 60px;
+    }
+
+    .navbar-text > a {
+        font-size: 10px;
+    }
+
+    .navbar-text > p {
+        color: white;
+        font-size: 18px;
+    }
+
+    a:link{
+        color: black;
+    }
+
+    .email {
+        padding-top: 20px;
+    }
+
+    .git {
+        padding-top: 7px;
+    }
+
+    .model3D  {
+        height: 200px;
+    }
+}
+
+@media (min-width: 992px) { 
+    
+    body {
+        background-color: #f7f9fb;
+    }
+
+
+   
+
+    .card {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: #e4e4e4;
+    }
+
+    .logo {
+        margin-top: 7px;
+    }
+
+    .logo h1 {
+        font-family: modelFont;
+        font-size: 59px;
+        margin: 0;
+        margin-top: 0px;
+        margin-bottom: -20px;
+        float: left;
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+   
+
+    .logo p {
+        font-size: 14px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-top: 65px;
+        padding-left: 12px;
+    }
+
+    .navbar_model {
+        background-color: #116466; 
+        min-height: 120px;
+    }
+
+    .footer {
+        background-color: #116466;
+        height: 75px;
+    }
+
+    .navbar-text > a {
+        font-size: 15px;
+        color: white;
+    }
+
+    .navbar-text > p {
+        color: white;
+        font-size: 23px;
+    }
+    .navbar-text > p > a {
+        color: white;  
+    }
+    a:link{
+        color: black;
+    }
+
+    .email {
+        padding-top: 20px;
+    }
+
+    .git {
+        padding-top: 7px;
+    }
+
+    .model3D  {
+        height: 250px;
+        
+    }
+}
+
+
+@media (min-width: 1200px) {   
+   
+
+    .model3D  {
+        height: 300px;
+    }
+
+    .card {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: #f7f9fb;
+    }
+
+}
+
